@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Insights &amp; Publications | Architetto Egizio</title>
+  <meta name="description" content="Articles, research and architectural news by Dr. Amr Abbas.">
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Great+Vibes&family=Aref+Ruqaa:wght@400;700&family=Jost:wght@300;400;500;600;700&family=Reem+Kufi:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="insights.css">
+  <!-- اللغة المحفوظة (الإنجليزية افتراضيًا) -->
+  <script>
+    try { var l = localStorage.getItem('lang') || 'en';
+      document.documentElement.lang = l; document.documentElement.dir = (l === 'ar') ? 'rtl' : 'ltr'; } catch (e) {}
+  </script>
+
+  <script src="layout.js" defer></script>
+  <script src="data/projects.js" defer></script>
+  <script src="projects-ui.js" defer></script>
+  <script src="data/articles.js" defer></script>
+  <script src="insights-ui.js" defer></script>
+  <script src="music.js" defer></script>
+  <script src="brand-fit.js" defer></script>
+</head>
+<body data-page="insights">
+
+  <div id="site-header"></div>
+
+  <main class="section">
+    <div class="wrap">
+
+      <p class="eyebrow"><span class="en">Knowledge</span><span class="ar">المعرفة</span></p>
+      <h1 class="page-title"><span class="en">Insights &amp; Publications</span><span class="ar">الرؤى والمقالات والمنشورات</span></h1>
+      <p class="lead-sub"><span class="en">Sharing Knowledge, Experience &amp; Professional Perspectives</span><span class="ar">مشاركة المعرفة والخبرات والرؤى المهنية</span></p>
+      <div class="grid insight-grid" id="insight-cats"></div>
+
+      <div class="section-head sub-wide" id="list">
+        <h2 class="page-title" id="list-title"></h2>
+        <a class="text-link" id="list-clear" href="insights.html#list" style="display:none"><span class="en">Show all →</span><span class="ar">عرض الكل ←</span></a>
+      </div>
+      <div class="post-grid" id="insights-list"></div>
+
+      <h2 class="page-title sub-wide"><span class="en">Architecture News</span><span class="ar">أخبار معمارية</span></h2>
+      <div class="news-list" id="news-list"></div>
+
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>

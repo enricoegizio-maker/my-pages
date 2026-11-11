@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | Architetto Egizio</title>
+  <meta name="description" content="About Dr. Amr Abbas, founder of Architetto Egizio, and the philosophy of the office.">
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Great+Vibes&family=Aref+Ruqaa:wght@400;700&family=Jost:wght@300;400;500;600;700&family=Reem+Kufi:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- اللغة المحفوظة (الإنجليزية افتراضيًا) -->
+  <script>
+    try { var l = localStorage.getItem('lang') || 'en';
+      document.documentElement.lang = l; document.documentElement.dir = (l === 'ar') ? 'rtl' : 'ltr'; } catch (e) {}
+  </script>
+
+  <script src="layout.js" defer></script>
+  <script src="data/projects.js" defer></script>
+  <script src="projects-ui.js" defer></script>
+  <script src="music.js" defer></script>
+  <script src="brand-fit.js" defer></script>
+</head>
+<body data-page="about">
+
+  <div id="site-header"></div>
+
+  <main class="section">
+    <div class="wrap">
+      <h1 class="page-title"><span class="en">About</span><span class="ar">عن المكتب</span></h1>
+
+      <div class="about-grid">
+        <figure class="portrait">
+          <img src="images/amr.jpg" alt="Dr. Amr Abbas" onerror="this.onerror=null;this.src='images/placeholder-portrait.svg'">
+        </figure>
+
+        <div class="about-text">
+          <p class="eyebrow"><span class="en">Founder</span><span class="ar">المؤسس</span></p>
+          <h2 class="name"><span class="en">Dr. Amr Abbas</span><span class="ar">د. عمرو عباس</span></h2>
+          <p class="role-line"><span class="en">Senior Architect &amp; Project Manager · PhD in Architectural Engineering</span><span class="ar">استشاري معماري ومدير مشروعات · دكتوراه في الهندسة المعمارية</span></p>
+
+          <h3 class="sub"><span class="en">Our Philosophy</span><span class="ar">فلسفة المكتب</span></h3>
+          <!-- ====== اكتب فلسفتك هنا (النص الحالي نموذج مؤقت، استبدله بنصك) ====== -->
+          <p class="philosophy en"> Every project begins with a deep understanding of its purpose, location, users, and future needs. We translate these elements into a balanced architectural design that unites aesthetics, functionality, and long-term value.
+In every project, we aim to achieve:
+•	Architectural design that reflects the identity of the place and meets the client’s vision.
+•	Intelligent space planning that maximizes efficiency and usability.
+•	Full integration between architectural form, structure, and electromechanical systems.
+•	Sustainable solutions that reduce energy consumption and operating costs.
+•	High-quality execution from the initial concept to final handover.
+•	Architectural and interior details that enhance the user experience and visual identity of the project.
+We believe that a successful project is not measured only by its appearance, but by how efficiently it functions, how well it serves its users, and how effectively it adapts to future needs.</p>
+          <p class="philosophy ar">دراسة أي مشروع تبدء بفهم عميق وموقعه الجغرافي ومستخدميه واحتياجاته المستقبلية، ثم نترجم هذه المعطيات إلى تصميم معماري متوازن يجمع بين الأناقة والوظيفة.
+نسعى في كل مشروع إلى تحقيق:
+•	تصميم معماري يعكس هوية المكان ويلبي احتياجات العميل.
+•	تخطيط ذكي يوظف المساحات بأفضل صورة ممكنة.
+•	تكامل بين الشكل المعماري والإنشاء والأنظمة الكهروميكانيكية.
+•	حلول مستدامة تراعي الطاقة والبيئة وكلفة التشغيل.
+•	جودة تنفيذ عالية من الفكرة الأولى حتى التسليم النهائي.
+•	تفاصيل معمارية وداخلية تعزز تجربة المستخدم والقيمة البصرية للمشروع.
+نؤمن بأن المشروع الناجح لا يُقاس فقط بجمال تصميمه، بل بقدرته على العمل بكفاءة، وخدمة مستخدميه، والبقاء قابلاً للتطور مع الزمن.</p>
+          <!-- ====== نهاية فلسفة المكتب ====== -->
+
+          <div class="signature">
+            <!-- ضع صورة توقيعك باسم signature.png داخل مجلد images (خلفية شفافة أفضل) -->
+            <img src="images/signature.png" alt="Signature" style="display:none"
+                 onload="this.style.display='block';this.nextElementSibling.style.display='none'" onerror="this.style.display='none'">
+            <span class="sig-text"><span class="en sig-en">Amr Abbas</span><span class="ar sig-ar">عمرو عباس</span></span>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="sub sub-wide"><span class="en">Credentials</span><span class="ar">المؤهلات والخبرة</span></h3>
+      <div class="tiles">
+        <div class="tile"><h3><span class="en">PhD</span><span class="ar">الدكتوراه</span></h3><p><span class="en">Architectural Engineering, Fayoum University (2025), focused on indoor air quality. Published researcher.</span><span class="ar">الهندسة المعمارية، جامعة الفيوم (2025)، في جودة الهواء الداخلي. باحث منشور.</span></p></div>
+        <div class="tile"><h3><span class="en">23+ Years</span><span class="ar">أكثر من 23 عامًا</span></h3><p><span class="en">Design and site supervision of campus, industrial, healthcare, administrative and residential projects.</span><span class="ar">تصميم وإشراف موقعي على مشروعات جامعية وصناعية وصحية وإدارية وسكنية.</span></p></div>
+        <div class="tile"><h3><span class="en">Full BIM</span><span class="ar">BIM متكامل</span></h3><p><span class="en">Revit, AutoCAD and Autodesk Construction Cloud for modeling, coordination and documentation.</span><span class="ar">Revit وAutoCAD وAutodesk Construction Cloud للنمذجة والتنسيق والتوثيق.</span></p></div>
+        <div class="tile"><h3><span class="en">Languages</span><span class="ar">اللغات</span></h3><p><span class="en">Arabic (native), Italian (excellent), English (professional).</span><span class="ar">العربية (لغة أم)، الإيطالية (ممتاز)، الإنجليزية (احترافي).</span></p></div>
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>

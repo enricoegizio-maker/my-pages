@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services | Architetto Egizio</title>
+  <meta name="description" content="Architectural design, construction supervision, full BIM services and project management.">
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Great+Vibes&family=Aref+Ruqaa:wght@400;700&family=Jost:wght@300;400;500;600;700&family=Reem+Kufi:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- اللغة المحفوظة (الإنجليزية افتراضيًا) -->
+  <script>
+    try { var l = localStorage.getItem('lang') || 'en';
+      document.documentElement.lang = l; document.documentElement.dir = (l === 'ar') ? 'rtl' : 'ltr'; } catch (e) {}
+  </script>
+
+  <script src="layout.js" defer></script>
+  <script src="data/projects.js" defer></script>
+  <script src="projects-ui.js" defer></script>
+  <script src="music.js" defer></script>
+  <script src="brand-fit.js" defer></script>
+</head>
+<body data-page="services">
+
+  <div id="site-header"></div>
+
+  <main class="section">
+    <div class="wrap">
+      <h1 class="page-title"><span class="en">Services</span><span class="ar">الخدمات</span></h1>
+      <div class="tiles tiles-3">
+        <div class="tile"><h3><span class="en">Architectural Design</span><span class="ar">التصميم المعماري</span></h3><p><span class="en">Concept design, façade design and complete construction drawings.</span><span class="ar">التصميم الأولي وتصميم الواجهات والمخططات التنفيذية الكاملة.</span></p></div>
+        <div class="tile"><h3><span class="en">Construction Supervision</span><span class="ar">الإشراف على التنفيذ</span></h3><p><span class="en">Site supervision and quality control until final handover.</span><span class="ar">إشراف موقعي ومراقبة جودة حتى التسليم النهائي.</span></p></div>
+        <div class="tile"><h3><span class="en">Full BIM Services</span><span class="ar">خدمات BIM المتكاملة</span></h3><p><span class="en">3D modeling, coordination and documentation (Revit).</span><span class="ar">النمذجة ثلاثية الأبعاد والتنسيق والتوثيق (Revit).</span></p></div>
+        <div class="tile"><h3><span class="en">Project Management</span><span class="ar">إدارة المشروعات</span></h3><p><span class="en">Planning, technical reporting and follow-up of project delivery.</span><span class="ar">التخطيط والتقارير الفنية ومتابعة تسليم المشروع.</span></p></div>
+        <div class="tile"><h3><span class="en">Landscape &amp; External Works</span><span class="ar">الموقع العام والأعمال الخارجية</span></h3><p><span class="en">Site planning, landscape design and external works coordination.</span><span class="ar">تخطيط الموقع وتصميم اللاندسكيب وتنسيق الأعمال الخارجية.</span></p></div>
+      </div>
+
+      <h2 class="page-title sub-wide"><span class="en">Sectors We Serve</span><span class="ar">القطاعات التي نخدمها</span></h2>
+      <div class="sector-list">
+        <a href="projects.html?sector=industrial"><b><span class="en">Industrial</span><span class="ar">صناعي</span></b><span><span class="en">Factories and manufacturing facilities</span><span class="ar">المصانع والمنشآت الإنتاجية</span></span></a>
+        <a href="projects.html?sector=educational"><b><span class="en">Educational</span><span class="ar">تعليمي</span></b><span><span class="en">Universities and campuses</span><span class="ar">الجامعات والمجمعات التعليمية</span></span></a>
+        <a href="projects.html?sector=healthcare"><b><span class="en">Healthcare</span><span class="ar">رعاية صحية</span></b><span><span class="en">Hospitals and medical facilities</span><span class="ar">المستشفيات والمنشآت الطبية</span></span></a>
+        <a href="projects.html?sector=administrative"><b><span class="en">Banking &amp; Administrative</span><span class="ar">مصرفي وإداري</span></b><span><span class="en">Banks and office buildings</span><span class="ar">البنوك والمباني الإدارية</span></span></a>
+        <a href="projects.html?sector=residential"><b><span class="en">Residential</span><span class="ar">سكني</span></b><span><span class="en">Villas and residential buildings</span><span class="ar">الفيلات والمباني السكنية</span></span></a>
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>

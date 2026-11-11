@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Architetto Egizio</title>
+  <meta name="description" content="Selected architectural projects: industrial, educational, healthcare, administrative and residential.">
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Great+Vibes&family=Aref+Ruqaa:wght@400;700&family=Jost:wght@300;400;500;600;700&family=Reem+Kufi:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- اللغة المحفوظة (الإنجليزية افتراضيًا) -->
+  <script>
+    try { var l = localStorage.getItem('lang') || 'en';
+      document.documentElement.lang = l; document.documentElement.dir = (l === 'ar') ? 'rtl' : 'ltr'; } catch (e) {}
+  </script>
+
+  <script src="layout.js" defer></script>
+  <script src="data/projects.js" defer></script>
+  <script src="projects-ui.js" defer></script>
+  <script src="music.js" defer></script>
+  <script src="brand-fit.js" defer></script>
+</head>
+<body data-page="projects">
+
+  <div id="site-header"></div>
+
+  <main class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h1 class="page-title"><span class="en">Projects</span><span class="ar">المشروعات</span></h1>
+        <div class="filters" id="filters" aria-label="Filters"></div>
+      </div>
+      <div class="grid" id="projects-grid"></div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>
